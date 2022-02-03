@@ -1,0 +1,40 @@
+# Intro Stats Activity {#statsactivity}
+
+Address each of the questions in the code chunk below and/or by typing outside the chunk (for written answers).
+
+## Problem 1
+Load the tidyverse and patchwork libraries and read in the Flashy and Pine datasets.
+
+```{r}
+
+```
+
+## Problem 2
+Using the flashy dataset, make a pdf of the average basin rainfall (PPTAVG_BASIN) for the NorthEast AGGECOREGION. On that pdf, add vertical lines showing the mean, median, standard deviation, and IQR. Make each a different color and note which is which in a typed answer below this question. (or if you want an extra challenged, make a custom legend that shows this)
+
+```{r}
+
+```
+
+## Problem 3
+Perform a Shapiro-Wilk test for normality on the data from question 2. Using the results from that test and the plot and stats from question 2, discuss whether or not the distribution is normal.
+
+```{r}
+```
+
+## Problem 4
+Make a plot that shows the distribution of the data from the PINE watershed and the NFDR watershed (two pdfs on the same plot). Log the x axis.
+
+```{r}
+
+```
+
+## Problem 5
+You want to compare how variable the discharge is in each of the watersheds in question 4. Which measure of spread would you use and why? If you wanted to measure the central tendency which measure would you use and why?
+
+## Problem 6
+Compute 3 measures of spread and 2 measures of central tendency for the PINE and NFDR watershed. (hint: use group_by() and summarize()) Be sure your code outputs the result. Which watershed has higher flow? Which one has more variable flow? How do you know?
+```{r}
+
+```
+
